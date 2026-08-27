@@ -74,7 +74,7 @@ zerops:
       cache:
         - node_modules
       envVariables:
-        VITE_API_URL: https://api-2f7f-3000.prg1.zerops.app
+        VITE_API_URL: ${api_zeropsSubdomain}
     run:
       base: nginx@1.22
       documentRoot: apps/frontend/dist
